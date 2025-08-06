@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: bisque; width: 600px; border: 1px solid black;">
+        <h1 style="text-align: center;">User Registraion Form</h1>
+
+        <img src="https://th.bing.com/th/id/OIP.4sCk1KJpl0TobgHN0fsG_AHaHa?w=199&h=199&c=7&r=0&o=5&pid=1.7" height="150" width="150">
+
+        <form>
+          <label>FullName:</label>  
+          <input type="text" placeholder="Enter your name" style="width: 90%;" required><br><br>
+
+           <label>Email:</label><br>  
+          <input type="email" placeholder="Enter your email" style="width: 90%;" required><br><br>
+   
+           <label>Age</label><br>  
+          <input type="number"  style="width: 90%;"><br><br>
+
+          <label>Number</label><br>  
+          <input type="tel"  style="width: 90%;"><br><br>
+
+          <label>Resume</label><br>  
+          <input type="file"  style="width: 90%;"><br><br>
+
+        <label>Linkdlen</label><br>  
+        <input type="url"  style="width: 90%;"><br><br>
+
+        <label>Policy</label><br>  
+        <input type="checkbox" required>T&C<br><br>
+
+        <label>Remeber Me</label><br>  
+        <input type="checkbox"><br><br>
+
+          <label>Colors</label><br>  
+        <input type="color" style="width: 90%;"><br><br>
+
+        <button type="submit">Registraion</button>
+        </form>
+    </div>
+</body>
+</html>

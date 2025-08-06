@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px" cellspacing="10px" cellpadding="10px" style="background-color: lightblue;">
+        <tr>
+            <th>SrNo</th>
+            <th>Name</th>
+            <th>Country</th>
+        </tr>
+
+        <tr>
+           <td>1</td>
+           <td>Aubrey</td>
+           <td>South Africa</td>
+        </tr>
+
+         <tr>
+           <td>2</td>
+           <td>David</td>
+           <td>Kenya</td>
+        </tr>
+
+
+         <tr>
+           <td>3</td>
+           <td>Geetha</td>
+           <td>India</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ORDERED LIST - ol -->
+
+    <ol>
+      <li>Bread</li>
+      <li>Eggs</li>
+      <li>Soda</li>
+      <li>Chips</li>  
+    </ol>
+
+
+
+    <!-- UNORDERD LIST ul-->
+     <ul>
+        <li>Amazon</li>
+        <li>Career</li>
+        <li>Support</li>
+        <li>Contact</li>
+        <li>Blog</li>
+        <li>Feedback</li>
+     </ul>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- DEFINTION LIST - dl 
+     dt-  defintion title
+     dd- defintion data
+     &copy;   copyrigh symbol
+     -->
+    <dl style="text-align: center;">
+
+      <dt>Netflix</dt>
+      <dd>It is an online OTT platform &copy; All rights reseverd</dd>
+    
+     
+    </dl>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<iframe width="500" height="557" src="https://www.youtube.com/embed/xPPLbEFbCAo" title="Restaurant Ad Video Template (Editable)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<iframe width="990" height="557" src="https://www.youtube.com/embed/H-VCzT-iP7E" title="Cinematic Restaurant Promo | Shetty Lunch Home" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

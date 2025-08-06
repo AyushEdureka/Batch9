@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ Name:       <input type="text"     placeholder="Enter your Name"><br><br>
+ Email:      <input type="email"    placeholder="Email Address"><br><br>
+ Password:   <input type="password" placeholder="Anything">
+
+ Gender:     <input type="radio"  name="Gender">Male
+             <input type="radio"  name="Gender">female<br><br>
+
+
+
+            <textarea rows="5" cols="20" ></textarea> 
+     
+     <button>AddToCart</button>
+
+
+
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span style="background-color: yellow;">Cart</span>
+    
+    <select>
+        <option label="En">English</option>
+        <option label="Hi">Hindi</option>
+        <option label="SP">Spanish</option>
+        <option >Africaans</option>
+        <option >Telugu</option>
+        <option >German</option>
+        <option label="USA">United States Of Amercia</option>
+        <option selected>Language</option>
+    </select>
+
+
+    <div style="background-color: blue; color: red;text-align: center; ">
+       <h1>OFFER 50% BILLON DAYS</h1>
+       <p>Shopw Now</p>
+    </div>
+
+  
+</body>
+</html>
