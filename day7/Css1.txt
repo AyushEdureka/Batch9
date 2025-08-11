@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 1. Inline Css- IN THE SAME LINE OR SAME TAG
+style attribute -->
+
+    <h1  style="color: blue; text-align: center; background-color: burlywood;">Welcome Everyone</h1>
+
+    <p style="font-family: cursive;">Hii</p>
+</body>
+</html>
+
+
+
+
+----------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+    
+     /* #IDNAME */
+     #Abdul{
+           color: blue;
+           text-align: center;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           background-color: cadetblue;
+     }
+
+     div{
+        background-color: burlywood;
+        width: 350px;
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+     }
+
+    div img{
+        height: 130px;
+        border-radius: 100%;
+     }
+
+    </style>
+</head>
+<body>
+    
+    <h1 id="Abdul">Amazon - Shop Now</h1>
+    <div>
+        <h1>Laptop</h1>
+        <img src="./download.webp">
+        <p>$50.99</p>
+    </div>
+
+
+</body>
+</html>
+
+
+
+----------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="xyz.css">
+</head>
+<body>
+    <h1>I am External Css</h1>
+    <p>Hello How are you doing?</p>
+    <p>To use External Css - Create  A serpearte file</p>
+</body>
+</html>
+
+xyz.css
+p{
+    background-color: blueviolet;
+    color: azure;
+    font-size: 24px;
+    text-align: center;
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}
+
+
+
+----------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: red;
+        }
+
+        /* #IDNAME */
+        #myH{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Amazon</h1>
+
+    <h1 id="myH">SALE OFF: 50%</h1>
+</body>
+</html>
+
+
+-----------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     /* .CLASSNAME */
+
+     .Batch1{
+        color: blue;
+     }
+
+     .batch2{
+        color: red;
+     }
+    </style>
+</head>
+<body>
+
+    <h1 class="Batch1">Netflix</h1>
+    <p  class="Batch1">This is paragaph for Netlix</p>
+    
+
+    <h1 class="batch2">Amazon</h1>
+    <p  class="batch2">Products Buy Now</p>
+</body>
+</html>
+
+
+--------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+    *{
+        font-family: cursive;
+    }
+
+
+     .Batch1{
+        color: blue;   
+     }
+   
+    </style>
+</head>
+<body>
+
+    <h1 class="Batch1">Netflix</h1>
+    <p  class="Batch1">This is paragaph for Netlix</p>
+    
+
+    <h1>Amazon</h1>
+    <p>Products Buy Now</p>
+</body>
+</html>
+
+
+---------------------------
