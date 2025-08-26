@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background: linear-gradient(to top, #87ceeb,#f0f8ff);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            overflow: hidden;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+        }
+
+        .track{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            background: #3e3e3e;
+            border-top: 8px solid #222;
+        }
+
+        .runner{
+            position: relative;
+            width: 60px;
+            height: 120px;
+            animation: run 5s linear infinite;
+        }
+
+        .head{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: black;
+            margin: auto;
+        }
+
+        .body{
+            width: 8px;
+            height: 50px;
+            background-color: black;
+            margin: auto;
+        }
+
+        .arms{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            top:-45px
+        }
+
+        .arm{
+            width: 6px;
+            height: 40px;
+            background: black;
+            animation: arMove 0.5 infinite alternate;
+        }
+
+        .arm-right{
+            animation-duration: 0.25s;
+        }
+   
+
+        .legs{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .leg{
+            width: 6px;
+            height: 40px;
+            background-color: black;
+            animation: legMove 0.5s infinite;
+        }
+
+        .leg-right{
+            animation-delay: 0.25s;
+        }
+
+        h1{
+            position: absolute;
+            top:200px;
+            text-align: center;
+            width: 100%;
+            color: darkblue;
+            font-size: 2rem;
+
+        }
+
+        @keyframes run {
+            0% { transform: translateX(-100px);}
+            100% { transform: translateX(100vw);}
+        }
+
+        @keyframes legMove{
+            from { transform: rotate(30deg);}
+            to {transform: rotate(-30deg);}
+        }
+
+         @keyframes arMove{
+            from{ transform: rotate(-30deg);}
+        to {transform: rotate(-0deg);}
+        }
+    </style>
+</head>
+<body>
+    <h1>Stickman Race</h1>
+  
+    <!-- Stickman 1 -->
+     <div class="runner">
+        <div class="head"></div>
+        <div class="arms">
+            <div class="arm left"></div>
+            <div class="arm right"></div>
+        </div>
+        <div class="body"></div>
+        <div class="legs">
+            <div class="leg left"></div>
+            <div class="leg right"></div>
+        </div>
+     </div>
+
+      <div class="runner" style="animation-duration: 6s;">
+        <div class="head"></div>
+         <div class="arms">
+            <div class="arm left"></div>
+            <div class="arm right"></div>
+        </div>
+        <div class="body"></div>
+        <div class="legs">
+            <div class="leg left"></div>
+            <div class="leg right"></div>
+        </div>
+     </div>
+
+     <div class="track"></div>
+
+</body>
+</html>

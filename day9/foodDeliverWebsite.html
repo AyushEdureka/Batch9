@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+
+        header{
+            position: sticky;
+            top: 0;
+            background: tomato;
+            color: white;
+            padding: 15px;
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        .banner{
+            position: relative;
+            /* background: url(''); */
+            background-color: bisque;
+            /* background-size: cover; */
+            height: 140px;
+        }
+
+        .order{
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            background-color: yellow;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        .content{
+            background: #f77777;
+            padding: 25px;
+        }
+
+        .special{
+            position: relative;
+            background: lightblue;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .special::after{
+            content: '♥Hot Deals';
+            position: absolute;
+            top:-10px;
+            right: -10px;
+            background: red;
+            color: white;
+            padding: 5px;
+            font-size: 12px;
+        }
+
+        .cart{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #000;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>TastyEats🍔</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">Menu</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <button class="order">Order Now</button>
+    </section>
+
+    <div class="content">
+        <div class="special">
+            Special Offer : Happy Hours + Free Delivery!
+        
+        </div>
+        <p>
+            Enjoy Your Meal From our Fav Restraunt delivered at yuur door steo
+        </p>
+
+        <div class="cart">Cart🛒</div>
+
+    </div>
+
+    <div style="height: 1000px;"></div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: cursive;
+        }
+
+       #banner{
+        border: 1px solid black;
+        height: 500px;
+        text-align: center;
+        background-color: bisque;
+        color: white;
+        text-shadow: 2px 2px 4px blue;
+        border-radius: 15px;
+        box-shadow: 0 5px 10px black;
+
+        /* BACKGROUND IMAGE PROPERTIES - (ctrl+/) */
+        background-image: url('https://th.bing.com/th/id/OIP.TodsfOAnmjbImxMXS70XqwHaEJ?w=300&h=180&c=7&r=0&o=7&pid=1.7&rm=3');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;   
+       }
+
+     
+    </style>
+</head>
+<body>
+    <div id="banner">
+       <h1>Welcome To My BAKECAKE🍰</h1>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            line-height: 1.6;
+            color: white;
+            
+        }
+
+        /* BACKGROUND PROPERTY */
+        body{
+           background-image: url('https://th.bing.com/th/id/OIP.skKvKqvgakbmDsszw5iZrgHaEI?w=267&h=180&c=7&r=0&o=7&pid=1.7&rm=3');
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+           background-attachment: fixed;
+
+        }
+
+        header{
+            padding: 50px;
+            text-shadow: 2px 2px 4px blue;
+            background-color: rgba(0, 0, 0, 0.3)
+        }
+
+        section{
+            border: 1px solid white;
+            border-radius: 10px;
+            margin:auto;
+            max-width: 800px;
+            background: linear-gradient(to right,green,white);
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome To Nature Bliss</h1>
+    </header>
+
+    <section>
+        <p>The Website is all About Nature</p>
+        <p>Be Kind To Nature</p>
+        <button>Save Nature</button>
+        <p>Thank you for visting</p>
+    </section>
+
+    <div style="height: 1500px;">Dummby to get the scrolll</div>
+</body>
+</html>

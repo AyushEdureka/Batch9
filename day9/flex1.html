@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        background-color: aquamarine;
+        justify-content: space-between;
+        height: 300px;
+        flex-wrap: wrap;
+       
+    }
+
+
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: lightcoral;
+        margin: 10px;
+        text-align: center;
+        font-weight: bold;
+        line-height: 100px;
+        border-radius: 2px;
+    }
+
+    /* Hover effect : Mouse/coursor effect */
+    .box:hover{
+        background-color: bisque;
+        transform: scale(1.2);
+        color: blue;
+    }
+  </style>
+
+</head>
+<body>
+    <!-- Flex- It is use to chnage the display as 1 One dimensional(Row or Coulmn) -->
+
+    <div class="container">
+         
+        <div class="box">Cake</div>
+        <div class="box">Cookies</div>
+        <div class="box">Pastry</div>
+    </div>
+</body>
+</html>

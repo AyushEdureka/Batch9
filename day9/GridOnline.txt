@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .grid-container{
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            gap:20px;
+            padding: 20px;
+            background-color: bisque;
+         }
+
+
+
+       .grid-item{
+        background-color: red;
+        padding: 20px;
+        text-align: center;
+        font-weight: bold;
+       } 
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+          <div class="grid-item">Cookies</div>
+          <div class="grid-item">Cake</div>
+          <div class="grid-item">pastry</div>
+          <div class="grid-item">$20</div>
+          <div class="grid-item">$15</div>
+          <div class="grid-item">$12</div>
+            <div class="grid-item">$12</div>
+              <div class="grid-item">$12</div>
+                <div class="grid-item">$12</div>
+                  <div class="grid-item">$12</div>
+                    <div class="grid-item">$12</div>
+
+                      <div class="grid-item">$12</div>  <div class="grid-item">$12</div>
+                        <div class="grid-item">$12</div>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            padding: 40px;
+        }
+
+        h3{
+            text-align: center;
+            margin-bottom: 30px;
+            color: #222;
+        }
+
+        .grid-prdoucts{
+            display: grid;
+            grid-template-columns: repeat(auto-fit , minmax(250px,1fr));
+            gap: 30px;
+            padding: 10px;
+            
+        }
+
+        .product{
+            background-color: white;
+            text-align: center;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px black;
+        }
+
+        .product:hover{
+            transform: scale(1.03);
+        }
+
+        .product img{
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .product p {
+            color: #777;
+            font-size: 14px;
+            margin: 15px;
+        }
+
+        .product .but-btn{
+                background-color: #28a745;
+                color: white;
+                border: none;
+                border-radius: 6px;
+                margin-bottom: 15px;
+                padding: 10px;
+                cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="grid-prdoucts">
+
+     <div class="product">
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D" >
+        <h3>Headphones</h3>
+        <p>$59.99</p>
+        <button class="but-btn">Buy Now</button>
+     </div> 
+
+     <div class="product">
+        <img src="https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SXBob25lfGVufDB8fDB8fHww" >
+        <h3>Iphone</h3>
+        <p>$159.99</p>
+        <button class="but-btn">Buy Now</button>
+     </div> 
+
+
+     <div class="product">
+        <img src="https://plus.unsplash.com/premium_photo-1711051475117-f3a4d3ff6778?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGFwdG9wfGVufDB8fDB8fHww" >
+        <h3>Laptop</h3>
+        <p>$199.99</p>
+        <button class="but-btn">Buy Now</button>
+     </div> 
+
+     <div class="product">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TmlrZXxlbnwwfHwwfHx8MA%3D%3D" >
+        <h3>NikeShoes</h3>
+        <p>$29.99</p>
+        <button class="but-btn">Buy Now</button>
+     </div> 
+
+     <div class="product">
+        <img src="https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8SG9vZGllfGVufDB8fDB8fHww" >
+        <h3>Hoodie</h3>
+        <p>$19.99</p>
+        <button class="but-btn">Buy Now</button>
+     </div> 
+
+
+     <div class="product">
+        <img src="https://images.unsplash.com/photo-1632794716789-42d9995fb5b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c21hcnR3YXRjaHxlbnwwfHwwfHx8MA%3D%3D" >
+        <h3>SmartWatch</h3>
+        <p>$99.99</p>
+        <button class="but-btn">Buy Now</button>
+     </div> 
+
+
+     <div class="product">
+        <img src="https://images.unsplash.com/photo-1632794716789-42d9995fb5b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c21hcnR3YXRjaHxlbnwwfHwwfHx8MA%3D%3D" >
+        <h3>Clothes</h3>
+        <p>$19.99</p>
+        <button class="but-btn">Buy Now</button>
+     </div> 
+
+    </div>
+
+</body>
+</html>

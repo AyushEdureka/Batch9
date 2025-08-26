@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header{
+            background-color: crimson;
+            color: white;
+            padding: 50px;
+        }
+        nav ul{
+            padding: 0;
+        }
+
+        nav ul li{
+            display: inline;
+            margin: 10px;
+        }
+
+        li a{
+            text-decoration: none;
+        }
+
+        footer{
+            background-color: burlywood;
+            color :#fff;
+            padding: 30px;
+        }
+
+        /* style for mobile screen */
+
+        @media (max-width:480px){
+            nav ul li{
+                display: block;
+                margin: 10px;
+            }
+
+            main{
+                background-color: lightblue;
+                padding: 20px;
+            }
+        }
+
+        /* styl for ipad or tablet */
+
+        @media (min-width:481px) and (max-width:768px){
+
+            main{
+                background-color: lightcoral;
+                padding: 20px;
+            }
+
+            header,footer{
+                background-color: lightskyblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Page</h1>
+        <nav>
+            <ul type="none">
+                <li><a href="#">Home</a></li>
+                 <li><a href="#">About</a></li>
+                  <li><a href="#">Blog</a></li>
+                   <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to my Blog</h2>
+            <p>This is a sample Blog! resize the screen to check</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;  2025 My Personal Blog</p>
+    </footer>
+</body>
+</html>
