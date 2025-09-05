@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <button onclick="HandleInputOutput()">SignIn</button>
+
+    <script>
+
+     //Input
+
+    //  const NewUser =     prompt('Enter your Name')
+
+    //  console.log("The User Name is " + NewUser)  //console
+
+    //  document.write("Welcome :" +  NewUser)  //webpage
+
+    //  alert("The value of Input  : "  + NewUser)    // Pop Up msg
+
+
+
+    function HandleInputOutput(){
+
+        const userName = prompt("Enter you Name?")
+
+        document.write("Good Evening :" + userName + "How are you doing")
+
+    }
+
+
+     if(window.confirm('Are you sure?')){
+        alert("Thank You Welcome onboard")
+     }else{
+        alert("Have a great day")
+     }
+
+     </script>   
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //DICE : 1 to 6
+
+        const LuckyNo =  Math.floor(Math.random()*6)+1
+       // console.log(LuckyNo)
+
+
+        while(true){
+          
+            guess = prompt("Enter Any Number from 1 to 6")
+
+            if(LuckyNo == guess){
+                alert("You WONNNNNN")
+                break; 
+               
+            }else{
+              alert("Better Luck Next Time")
+            }
+
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myH">Hello Learners</h1>
+
+    <h1>hey guys</h1>
+
+
+    <script>
+        function xyz(){
+
+         //step1 : select the element/tag from html
+
+         const abc =  document.getElementById("myH");  // h1 tag has been selected
+
+         //InnerHTML: CHANGE OR UPDATE THE CONTENT
+         
+         abc.innerHTML = "Hello my Fullstack Students"
+        }
+        xyz()
+    </script>
+</body>
+</html>

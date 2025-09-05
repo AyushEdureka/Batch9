@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myId">Hello guys</p>    
+
+    <div class="myClass">Student  0</div>
+    <div class="myClass">Students 1</div>
+
+    <p>Para - 1</p>
+    <p>Para - 2</p>
+
+    <div class="box">Circle</div>
+    <div class="box">Square</div>
+    <div class="box">Triangle</div>
+
+    <script>
+      
+      //1.GetelementByID
+
+     const ele =  document.getElementById("myId")
+     console.log(ele)
+     console.log(ele.textContent)
+
+     //2.Select Elememt/Tag by its class name
+
+       const xyz =  document.getElementsByClassName("myClass")
+       console.log(xyz)
+       console.log(xyz[0].textContent)
+
+
+     //3. TAgNAme
+         
+     const pqr  =    document.getElementsByTagName("p")
+     console.log(pqr)
+     console.log(pqr[1].textContent)
+
+
+     //QuerySelector : Rules of CSS : #Idname , .ClassName
+
+    //   const abc =  document.querySelector(".box")
+    //   console.log(abc)
+
+      const ele2 = document.querySelectorAll(".box")
+      console.log(ele2)
+
+
+    </script>    
+</body>
+</html>

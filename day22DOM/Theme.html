@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: 0;
+            color: beige;
+        }
+
+        h1{
+            color: black;
+            text-shadow: 0 2px 4px blue;
+        }
+
+        button{
+            margin: 10px;
+            border-radius: 10px;
+            height: 30px;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Click a Button To Change The Background</h1>
+    <button id="redButton">red-Theme</button>
+    <button id="blueButton">Blue-Theme</button>
+    <button id="greenButton">Green-Theme</button>
+
+    <marquee style="background-color: white; color: black; padding: 15px;">NOTICE: Flash Warning</marquee>
+
+    <button id="reset">Reset</button>
+
+    <script>
+
+     const redButton = document.getElementById("redButton")
+     const blueButton = document.getElementById("blueButton")
+     const greenButton = document.getElementById("greenButton")
+     const reset  = document.getElementById("reset")
+
+
+     redButton.addEventListener("dblclick" , function(){
+
+      document.body.style.backgroundColor ="red"
+
+     })
+
+     blueButton.addEventListener("click",function(){
+
+        document.body.style.backgroundColor = "blue"
+     })
+
+
+     greenButton.addEventListener("click",function(){
+
+        document.body.style.backgroundColor = "green"
+     })
+
+
+     reset.addEventListener("click", function(){
+        document.body.style.backgroundColor = "white"
+     })
+
+    </script>    
+</body>
+</html>

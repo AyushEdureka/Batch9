@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Arthimetic : + , - ,* , / , %
+
+        // var a = 10
+        // var b = 7
+        // console.log(a+b)  //17
+        // console.log(a-b)  // 3
+        // console.log(a*b) // 70
+        // console.log(a/b) // 1.34535
+
+        // console.log(10%7)  // remainder : 3
+
+        // console.log(10%3) //  remainder : 1
+
+        // console.log(10%2)
+
+        // console.log(2%11)
+
+        // console.log(4%6)
+
+
+        //2. Assigment Operator
+        // var x = 10
+        // console.log(x+=3)
+        // console.log(x-=5)
+        // x*=2
+        // x/=2;   // x = x/2
+
+        //3.Compariosn Operator
+        // var p = 20
+        // var q = 15
+
+        // console.log(p>q); //20>15 : True
+        // console.log(q>p);  // 15>20 : False
+        // console.log(p<15);  // 20<15 : False
+
+        // console.log(p>=q);  // 20>=15
+        // console.log(q<=p);   //  15<=20
+
+        // const height1 = "170" //String
+        // const height2 = 170   //Number
+
+        // console.log(height1 == height2);  //True
+
+        // // == Only Checks The Value Does Not cHEECK tHE data type
+
+        // console.log(height1 === height2);  //False
+
+        // // === It will check Both The value and Data Type Also 
+
+
+        //Logical Operator
+
+        //1. AND Operator - && : If Both Condition Is True Then OUTPUT IS TRUE
+
+        var IsMember = true
+        var TotalPrice = 300
+
+        console.log( IsMember && TotalPrice > 200)
+
+        //2. OR Operator - || If Only Condition is True Then OUTPUT is True
+
+
+        console.log(IsMember || TotalPrice > 500)
+
+        //3.Negation : ! Oppostive Value -->Output
+
+        var NetflixSub = false
+        console.log(!NetflixSub)
+
+
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //If Statement : It will Only Give you the Output When Condition Is True
+        //synatx if(Condition)
+
+        // var age = 14
+
+        // if(age >= 18){  // 24 > = 18 : True
+        //     //True Part
+        //     alert('Congrats You Are Elegible')
+        // }
+
+
+        //2. If - Else : If (): True part and Else : False part
+
+        //  var VoteAge = 8
+
+        // if(VoteAge >= 18){    //8 >= 18 : False
+
+        //     document.write("You Are Allowed To Vote")
+        // }else{
+        //     document.write("You Are Not Allowed")
+        // }
+
+      //3. Else If : It is used to check Mutiple Condition at Same Time
+
+      var temperature = 30
+
+      if(temperature >= 30){     // 21 >= 30 : F , 19 >=30 : F
+        alert('It is Sunny Day')
+      }
+      else if(temperature > 25){   //21 > 25 : F , 19 >25 : F
+        alert('It is Warm Outside')
+      }
+      else if(temperature > 20){ // 21 > 20 : T, 19 > 21 :F
+         
+        alert('It is Nice Weather')
+
+      }else{
+        document.write("It is Cold Outside")
+      }
+    </script>
+</body>
+</html>

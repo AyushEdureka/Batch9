@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //DICE : 1 to 6
+
+        const LuckyNo =  Math.floor(Math.random()*6)+1
+       // console.log(LuckyNo)
+
+
+        while(true){
+          
+            guess = prompt("Enter Any Number from 1 to 6")
+
+            if(LuckyNo == guess){
+                alert("You WONNNNNN")
+                break; 
+               
+            }else{
+              alert("Better Luck Next Time")
+            }
+
+        }
+    </script>
+</body>
+</html>

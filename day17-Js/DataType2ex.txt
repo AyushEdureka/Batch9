@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+      //Array : Mutiple Values at the same Time and Mutilple Data Type
+
+      //Symbol -  [ ] Sqaure bracket
+
+      //IndexNo : It always start with 0
+
+      var students = ["Hasini", "Abdul",222, "Raha", "Lord", "Akshaya",123,111]
+
+      console.log(students)
+      console.log(students[1])
+      console.log(students[2])
+      console.log(students[6])
+
+
+      //Object : Collection of Data 
+      // Key(left) : value(right)
+      // Symbol - {  } curly Bracket
+
+      var employye1 = {
+        //key:value 
+
+         name:"John" ,
+         email:"john@gmail.com" ,
+         age:24 ,
+         Id_no : "ABC123",
+         salary:12234324
+
+
+      }
+
+      console.log(employye1)
+      console.log(employye1.Id_no)
+            // objectName.keyName
+      console.log(employye1.age)      
+
+
+
+      //Function : It is used to do The Task
+      //Grocery bill calculator
+
+      //synatx  function(keyword) FunctionName(){
+      
+             //Task To be Done
+
+        //}
+
+      //Example 1 : Addition of 2 Number
+      
+       function Addition(){
+           
+        console.log(2+5)   //7
+
+       }
+
+       Addition()
+
+       function GroceryBill(){
+
+        var product1 = "Milk"
+        var product2 = "Eggs"
+        var price1 = 100
+        var price = 50
+        var TotalBill = price1 + price
+        console.log("The Total Cart Is:")
+        console.log(product1)
+        console.log(product2)
+        console.log("Your Total Bill is :" , TotalBill)
+       }
+
+       GroceryBill()
+
+
+    //   alert('Product Added To Cart')  //Pop Up Msg
+
+    function Login(){
+       
+        document.write("Hello Guys How are you doing?")
+        alert('Login Successfully')
+
+    }
+    Login()
+     </script>   
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Arthimetic : + , - ,* , / , %
+
+        var a = 10
+        var b = 7
+        console.log(a+b)  //17
+        console.log(a-b)  // 3
+        console.log(a*b) // 70
+        console.log(a/b) // 1.34535
+
+        console.log(10%7)  // remainder : 3
+
+        console.log(10%3) //  remainder : 1
+
+        console.log(10%2)
+
+        console.log(2%11)
+
+        console.log(4%6)
+
+
+    </script>
+</body>
+</html>
