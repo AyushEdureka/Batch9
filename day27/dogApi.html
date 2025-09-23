@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Randome Dog Image Generate</h1>
+    <button onclick="fetchDogImage()">Get Dog Image</button>
+    <br>
+
+    <img id="dogImage"  src=""    alt="Dog Will Appear" height="250" width="250">
+
+    <script>
+       function fetchDogImage(){
+
+         //Step 1: Fetch the data from API
+
+         fetch("https://dog.ceo/api/breeds/image/random")
+
+         //Step 2 : Need to be converted into json
+         .then(response=>response.json())
+
+         .then(data=>{
+            document.getElementById("dogImage").src = data.message
+         })
+
+         .catch(error=>console.log("Error Fetching Data",error))
+          
+
+       }
+
+
+     </script>   
+</body>
+</html>

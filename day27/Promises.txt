@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      
+      //Step 1 : setting the timer
+      function setTimer(callback){
+           
+        console.log("Baking Cookies in oven....")
+
+
+        setTimeout(function(){
+
+            console.log("Cookies are ready")
+            callback()
+        },10000)
+
+
+      }
+
+
+      function takeOutCookies(){
+        console.log("Taking Cookies out")
+      }
+
+      setTimer(takeOutCookies)
+
+
+      console.log("While Cookis are Baking I am doing Other task")
+
+      function add(){
+        console.log(2+2)
+      }
+      add()
+
+    </script> 
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Synatx =  new Promise(reject,resolve)
+
+        let myPromise = new Promise(function(resolve,reject){
+
+
+         if(/*condition */ true){
+            resolve("Success")
+         }else{
+            reject("Failed")
+         }
+
+
+        })
+       
+        myPromise
+
+        .then(result=>{
+            console.log(result)
+        })
+
+        .catch(err=>{
+            console.log(err)
+        })
+
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // http://randomuser.me/api
+
+        // fetch("API address")
+
+          fetch("https://randomuser.me/api")
+
+          .then(response=>response.json())
+
+          .then(data=>console.log(data.results))
+
+          .catch(error=>console.log("Error :" , error))
+         
+    </script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+    x=10
+    console.log(x)
+
+function abc(){
+    
+    "use strict"
+
+   var   message = "Hello Everyone"
+    console.log(message)
+
+}
+abc()
+
+
+</script>    
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("Step 1 : Get Bread")
+        console.log("Step 2 : Apply Butter")
+        console.log("Step 3 : Tooping")
+        console.log("Step 4 : Cover With Bread")
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      function startTask(){
+        console.log("Step 1 Boil the water (2 min to complete)")
+
+      
+        setTimeout(()=>{
+            console.log("Step 2 : Water is ready")
+        },10000)   //1000- 1sec
+
+
+        console.log("While wait for water to boil i will chop veggies")
+      }
+      startTask()
+
+
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       // - Callback is function AND 
+      //  -callback is passed as parameter/argument into another function
+
+
+      //main Task
+      function doHomeWork(subject,callback){
+
+        console.log(`Doing HomeWork for ${subject} `)
+        callback()
+
+      }
+      doHomeWork("Maths",function(){
+        console.log("Homework is finised")
+      })
+
+      
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //main Task
+        function Greet(name,callback){
+
+        console.log(`Hiii ${name} How are you doing`)
+        callback()
+        }
+        Greet("Aditi", function(){
+            console.log("Callback functon is called")
+        })
+        
+    </script>
+</body>
+</html>

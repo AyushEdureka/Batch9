@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Linked List : Node(Box) is connected to form a list
+        //Node(Box): It is divided into 2 part,
+        // 1st part : Data
+        // 2nd part  : Next Address
+
+        class Node{
+            //Plan/structure
+             
+               constructor(data){
+                    this.data = data
+                    this.next = null
+               }
+               
+        }
+
+        // Create Object To Acccess The Class
+        // How to create Object ?
+        // ---> = new ClassName()
+
+
+        let John = new Node("Song1")
+        let Bob  = new Node("Song 2")
+        let Charlie = new Node("Song3")
+
+
+        //Connection - Next : Adderess
+
+        John.next =  Bob
+        Bob.next = Charlie 
+    
+        console.log(John.next.data)
+        console.log(Bob.next.data)
+        console.log(Charlie.next)
+        
+        </script>
+</body>
+</html>
