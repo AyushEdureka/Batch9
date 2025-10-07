@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     //To - Do List
+
+     let tasks = ["Buy grocies","Office", "Playing" , "Gymimg"  ]
+
+     //Array Method
+
+     //1. Add the Data
+
+     //Push- add or insert the data at the end of aaray
+     tasks.push("Gym")
+     tasks.push("Drink Water")
+
+     //pop- Remove the data from the last
+     tasks.pop()
+
+
+     //unshift() - ADD THE DATA AT THE START OF ARRAY
+     tasks.unshift("Cooking")
+
+
+     //shift()- Removes the data from start
+     tasks.shift()
+
+
+    //SPLICE - ADD THE DATA AT SPECIFIC POSITION(INDEXN NO)
+    // 0- Keep the previous data and 1 - remove the previous data at that index
+
+    tasks.splice(4,0,"New Tak")
+
+
+    //ForEach-call function for each item/data in the aaray
+
+    tasks.forEach(function(variable){
+    
+      console.log(variable)
+
+    })
+
+
+    //Map- Create a new Array By Transforming each item/dta in your original aaray
+
+    let  mportantTasks = tasks.map(function(task){
+
+           return "Important " + task
+
+    })
+
+    console.log(mportantTasks)
+
+
+
+    //Filter - Create a new aaray and filter it
+
+    let newTask = tasks.filter(function(task){
+
+        return task.includes("Gym")
+
+    })
+
+    console.log(newTask)
+
+
+
+
+
+     console.log(tasks)
+
+
+
+     </script>   
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+    class TreeNode{
+
+        constructor(value){
+           this.value = value
+           this.children = []
+        }
+
+         addChild(childNode){
+            this.children.push(childNode)
+        }
+
+    }
+
+    //Object : new className
+
+    let grandparent = new TreeNode("Grandparent")
+    let parent1 = new TreeNode("Parent 1")
+    let parent2 = new TreeNode("parent 2")
+    let child1 = new TreeNode("Child 1")
+    let child2 = new TreeNode("Child 2")
+
+
+    //Connection
+    grandparent.addChild(parent1)
+    grandparent.addChild(parent2)
+
+    parent1.addChild(child1)
+    parent2.addChild(child2)
+
+    console.log(grandparent)
+
+  //gp = [oarent1,parent2   ]
+
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   
+      let strickCollection = new Set()
+
+      //Set Object is used to store data as unique values : Will not count duplicate
+
+      strickCollection.add("Unicorn")
+      strickCollection.add("Cars")
+      strickCollection.add("Rainbow")
+      strickCollection.add("xyz")
+      strickCollection.add("Unicorn")
+
+      console.log(strickCollection)
+
+
+    </script>
+</body>
+</html>
